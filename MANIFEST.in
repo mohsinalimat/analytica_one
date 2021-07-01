@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include analytica_one *.css
+recursive-include analytica_one *.csv
+recursive-include analytica_one *.html
+recursive-include analytica_one *.ico
+recursive-include analytica_one *.js
+recursive-include analytica_one *.json
+recursive-include analytica_one *.md
+recursive-include analytica_one *.png
+recursive-include analytica_one *.py
+recursive-include analytica_one *.svg
+recursive-include analytica_one *.txt
+recursive-exclude analytica_one *.pyc
