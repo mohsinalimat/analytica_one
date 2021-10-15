@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "creation": "2021-09-09 12:13:12.475057",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_target_section",
+  "company_forecast",
+  "sb_38",
+  "employee_forecast",
+  "sb_36",
+  "supplier_forecast",
+  "section_break_7",
+  "supplier_employee_target"
+ ],
+ "fields": [
+  {
+   "fieldname": "sb_36",
+   "fieldtype": "Section Break",
+   "label": "Supplier Targets"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "supplier_forecast",
+   "fieldtype": "Table",
+   "options": "Supplier Forecast"
+  },
+  {
+   "fieldname": "sb_38",
+   "fieldtype": "Section Break",
+   "label": "Employee Targets"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "employee_forecast",
+   "fieldtype": "Table",
+   "options": "Employee Forecast"
+  },
+  {
+   "fieldname": "company_target_section",
+   "fieldtype": "Section Break",
+   "label": "Company Target"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "company_forecast",
+   "fieldtype": "Table",
+   "options": "Company Forecast"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break",
+   "label": "Supplier Employee Target"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "supplier_employee_target",
+   "fieldtype": "Table",
+   "options": "Supplier Employee Target"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-09-29 09:47:55.881653",
+ "modified_by": "Administrator",
+ "module": "Analytica One",
+ "name": "Forecast Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Sales Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Purchase Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Sales User",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Purchase User",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

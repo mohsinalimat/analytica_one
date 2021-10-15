@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "creation": "2021-09-17 20:59:58.259662",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier",
+  "currency",
+  "ksa_central",
+  "ksa_ea_hpi",
+  "ksa_western",
+  "ksa_aramco",
+  "ksa_service",
+  "column_break_3",
+  "stock_orders",
+  "total_value_ksa",
+  "qatar",
+  "jordan",
+  "bahrain",
+  "target"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "bold": 1,
+   "fieldname": "target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Target"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ksa_central",
+   "fieldtype": "Currency",
+   "label": "KSA Central"
+  },
+  {
+   "fieldname": "ksa_ea_hpi",
+   "fieldtype": "Currency",
+   "label": "KSA EA & HPI"
+  },
+  {
+   "fieldname": "ksa_western",
+   "fieldtype": "Currency",
+   "label": "KSA Western"
+  },
+  {
+   "fieldname": "ksa_aramco",
+   "fieldtype": "Currency",
+   "label": "KSA Aramco"
+  },
+  {
+   "fieldname": "ksa_service",
+   "fieldtype": "Currency",
+   "label": "KSA service"
+  },
+  {
+   "bold": 1,
+   "fieldname": "total_value_ksa",
+   "fieldtype": "Currency",
+   "label": "Total Value KSA"
+  },
+  {
+   "fieldname": "stock_orders",
+   "fieldtype": "Currency",
+   "label": "Stock Orders"
+  },
+  {
+   "fieldname": "qatar",
+   "fieldtype": "Currency",
+   "label": "Qatar"
+  },
+  {
+   "fieldname": "jordan",
+   "fieldtype": "Currency",
+   "label": "Jordan"
+  },
+  {
+   "fieldname": "bahrain",
+   "fieldtype": "Currency",
+   "label": "Bahrain"
+  },
+  {
+   "fetch_from": "supplier.default_currency",
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Currency",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-09-22 07:42:41.281561",
+ "modified_by": "Administrator",
+ "module": "Analytica One",
+ "name": "Supplier Forecast",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
