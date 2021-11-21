@@ -1,0 +1,26 @@
+{
+ "content": null,
+ "creation": "2021-11-21 08:06:48.644804",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2021-11-21 08:06:48.644804",
+ "modified_by": "Administrator",
+ "module": "Analytica One",
+ "name": "dashboard-reports",
+ "owner": "Administrator",
+ "page_name": "Dashboard Reports",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Accounts Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Dashboard Reports"
+}

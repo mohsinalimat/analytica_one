@@ -14,7 +14,9 @@
   "section_break_6",
   "claim_amount",
   "column_break_8",
-  "sanctioned_amount"
+  "sanctioned_amount",
+  "accounting_dimensions_section",
+  "cost_center"
  ],
  "fields": [
   {
@@ -73,12 +75,24 @@
    "in_list_view": 1,
    "label": "Sanctioned Amount",
    "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "accounting_dimensions_section",
+   "fieldtype": "Section Break",
+   "label": "Accounting Dimensions"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "label": "Cost Center",
+   "options": "Cost Center"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-10-04 20:16:58.757386",
+ "modified": "2021-11-01 20:44:30.290497",
  "modified_by": "Administrator",
  "module": "Analytica One",
  "name": "Employee Expense Claim Detail",

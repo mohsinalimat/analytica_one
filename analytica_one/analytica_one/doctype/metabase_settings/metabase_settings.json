@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "creation": "2021-11-21 07:34:44.111395",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "metabase_url",
+  "metabase_exp_time",
+  "column_break_3",
+  "metabase_secret",
+  "wake"
+ ],
+ "fields": [
+  {
+   "fieldname": "metabase_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Server URL",
+   "reqd": 1
+  },
+  {
+   "default": "20",
+   "fieldname": "metabase_exp_time",
+   "fieldtype": "Data",
+   "label": "Dashboard Expiration (Minute)"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "metabase_secret",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Secret Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wake",
+   "fieldtype": "Int",
+   "label": "wake"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-11-21 11:36:20.122813",
+ "modified_by": "Administrator",
+ "module": "Analytica One",
+ "name": "Metabase Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

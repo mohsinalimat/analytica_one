@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "autoname": "field:dashboard_name",
+ "creation": "2021-11-21 07:42:37.269303",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dashboard_id",
+  "column_break_2",
+  "dashboard_name",
+  "section_break_4",
+  "theme",
+  "column_break_6",
+  "show_border",
+  "show_title",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "dashboard_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dashboard ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dashboard_name",
+   "fieldtype": "Data",
+   "label": "Dashboard Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "theme",
+   "fieldtype": "Select",
+   "label": "Theme",
+   "options": "Light\nDark"
+  },
+  {
+   "default": "0",
+   "fieldname": "show_border",
+   "fieldtype": "Check",
+   "label": "Show Border"
+  },
+  {
+   "default": "0",
+   "fieldname": "show_title",
+   "fieldtype": "Check",
+   "label": "Show Title"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-21 10:34:29.084400",
+ "modified_by": "Administrator",
+ "module": "Analytica One",
+ "name": "Dashboard Picker",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "dashboard_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

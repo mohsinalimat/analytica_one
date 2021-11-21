@@ -1,0 +1,26 @@
+{
+ "content": null,
+ "creation": "2021-11-18 12:24:22.960735",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2021-11-21 11:35:29.861007",
+ "modified_by": "Administrator",
+ "module": "Analytica One",
+ "name": "weekly-report",
+ "owner": "Administrator",
+ "page_name": "Weekly Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Accounts Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Weekly Report"
+}
