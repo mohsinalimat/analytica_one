@@ -4,7 +4,7 @@
 import frappe
 from frappe.model.document import Document
 
-class MetabaseSettings(Document):
+class MetabaseSetting(Document):
 	pass
 
 @frappe.whitelist()

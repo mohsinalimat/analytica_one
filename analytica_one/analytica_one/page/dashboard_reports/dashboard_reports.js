@@ -8,13 +8,13 @@ frappe.pages['dashboard-reports'].on_page_load = (wrapper) => {
 	
 	new DashboardReports(page, wrapper);
 	
-	page.add_inner_button(__("Generate Report"), function () {
-		frappe.call({
-			method: "analytica_one.analytica_one.doctype.metabase_settings.metabase_settings.set_wake",
-			args: { "val": '1'}
+	// page.add_inner_button(__("Generate Report"), function () {
+	// 	frappe.call({
+	// 		method: "analytica_one.analytica_one.doctype.metabase_settings.metabase_settings.set_wake",
+	// 		args: { "val": '1'}
 			
-		});
-	});
+	// 	});
+	// });
 	// page.add_inner_button('Report', () => new_post(), 'Generate')
 };
 

@@ -6,7 +6,7 @@ from frappe.model.document import Document
 
 class CustomerRequestForm(Document):
 	def validate(self):
-		exist_sup = frappe.db.sql("""select name from `tabCustomer` where customer_name = %s and customer_group = %s""",(self.customer_name,self.customer_group),as_dict=1)
+		exist_sup = frappe.db.sql("""select name from `tabCustomer` where customer_name = %s""",(self.customer_name),as_dict=1)
 		
 		if exist_sup:
 			frappe.throw("Customer Name is already exist in Customer!")

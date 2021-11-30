@@ -6,7 +6,7 @@ from frappe.model.document import Document
 
 class SupplierRequestForm(Document):
 	def validate(self):
-		exist_sup = frappe.db.sql("""select name from `tabSupplier` where supplier_name = %s and supplier_group = %s""",(self.supplier_name,self.supplier_group),as_dict=1)
+		exist_sup = frappe.db.sql("""select name from `tabSupplier` where supplier_name = %s""",(self.supplier_name),as_dict=1)
 		
 		if exist_sup:
 			frappe.throw("Supplier Name is already exist in Supplier!")

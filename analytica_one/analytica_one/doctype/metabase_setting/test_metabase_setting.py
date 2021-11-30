@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestMetabaseSettings(unittest.TestCase):
+class TestMetabaseSetting(unittest.TestCase):
 	pass
